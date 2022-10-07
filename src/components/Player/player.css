@@ -1,0 +1,32 @@
+.body_player {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 25px;
+  }
+  
+  .play_btn,
+  .skip_btn {
+    background: transparent;
+    border: none;
+  }
+  
+  .next_song_nextup{
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .next_song_title{
+    color: rgb(51, 51, 51);
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: capitalize;
+    width: 100%;
+  }
+  
+  .next_song_artist {
+    color: rgb(144, 144, 144);
+    font-weight: 600;
+    text-transform: capitalize;
+    width: 100%;
+  }

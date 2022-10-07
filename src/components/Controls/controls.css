@@ -1,0 +1,72 @@
+.controllers {
+    margin: 25px 0;
+  }
+  .play_btn,
+  .skip_btn,
+  .loop_btn,
+  .random_btn {
+    margin: 0 15px;
+    color: rgb(63, 71, 84);
+    font-size: 24px;
+    line-height: 0;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .play_btn:hover,
+  .skip_btn:hover,
+  .loop_btn:hover,
+  .random_btn:hover {
+    opacity: 0.7;
+  }
+  
+  .random_btn,
+  .volume-icon {
+    font-size: 20px !important;
+  }
+  
+  .loop_btn.active,
+  .random_btn.active {
+    color: rgb(49, 224, 59);
+  }
+  
+  
+  #volBar {
+    padding: 0;
+    margin: 0;
+    background: transparent;
+    position: absolute;
+    top: 8px;
+    left: 36px;
+  }
+  
+  #volBar::-moz-range-thumb {
+    height: 10px;
+    width: 3px;
+    background: #4491be;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .volume {
+    display: flex;
+    align-content: center;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    overflow: hidden;
+    width: 25px;
+    transition: all 500ms;
+    margin: 0 0 20px 0; 
+    position: relative;
+    left: 25px;
+  }
+  
+  .volume:hover {
+    width: 60%;
+  }
+  
+  .volume-icon {
+    margin-right: 10px;
+  }
+  
