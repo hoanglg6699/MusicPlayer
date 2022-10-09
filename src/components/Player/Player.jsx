@@ -24,6 +24,7 @@ const Player = (props) => {
   const handleLoadedData = () => {
     setDuration(audioEl.current.duration);
     if (isPlaying) audioEl.current.play();
+    audioEl.current.volume = volume;
   };
 
   const handleTimeSliderChange = ({ x }) => {
@@ -120,7 +121,9 @@ const Player = (props) => {
           Next up
           {':'}
         </p>
+        <br />
         <div className='next_song_title'>{props.songs[props.nextSongIndex].title}</div>
+        <br />
         <div className='next_song_artist'>By{': '}{props.songs[props.nextSongIndex].artist}</div>
       </div>
     </div>

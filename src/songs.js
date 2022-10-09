@@ -50,7 +50,7 @@ const songs = [
   },
   {
     id: 7,
-    title: "RememberMe",
+    title: "Chạy Ngay Đi",
     artist: "Sơn Tùng MTP",
     avatar: "./assets/images/ChayNgayDi.png",
     mp3: "./assets/music/ChayNgayDi.mp3",

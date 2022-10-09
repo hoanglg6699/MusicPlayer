@@ -117,3 +117,11 @@
   animation: rotatePause 0.5s ease 0s 1 normal forwards running;
   border-radius: 50% !important;
 }
+
+/* SMALL */
+@media screen and (max-width: 600px) {
+  .details_title {
+    overflow: hidden;
+  }
+}
+

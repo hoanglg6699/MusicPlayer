@@ -3,7 +3,7 @@
   border-radius: 10px;
   display: flex;
   align-items: center;
-  padding: 14px 20px;
+  padding: 20px 10px;
   text-transform: capitalize;
   cursor: pointer;
   box-shadow: rgba(0, 0, 0, 0.063) 0px 0px 20px 2px;
@@ -72,10 +72,36 @@
     white-space: nowrap; 
     text-overflow: ellipsis;
     width: 98%;
+    position: relative;
+    height: 90px;
   }
 
   .item__number {
-    width: 30px;
-    margin-right: 8px;
+    width: 40px;
+    position: absolute;
+    display: flex;
+  }
+
+  .item img {
+    position: absolute;
+    left: 40px;
+  }
+
+  .item__icon {
+    position: absolute;
+    left: 90px;
+  }
+
+  .item__title {
+    position: absolute;
+    left: 130px;
+    top: 22px;
+  }
+
+  .item__artist {
+    position: absolute;
+    left: 130px;
+    bottom: 22px;
+
   }
 }
